@@ -80,6 +80,8 @@
         $even_list = array_filter($mult_list, 'isEven'); #only gets even numbers via filter
 
         print_r($even_list);
+
+        include 'dates.php';
     ?>
 </body>
 </html>
